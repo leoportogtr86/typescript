@@ -1,4 +1,4 @@
-const a: string = 'Leo Porto'
+const a: string = 'Leo Porto...'
 console.log(a)
 
 
