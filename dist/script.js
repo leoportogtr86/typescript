@@ -5,3 +5,5 @@
 console.log('hello typescript');
 var msg = 'Bom dia!';
 console.log(msg);
+var idade = 34;
+console.log("O dobro da idade \u00E9 " + idade * 2);

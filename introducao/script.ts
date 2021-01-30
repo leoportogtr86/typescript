@@ -7,3 +7,8 @@ console.log('hello typescript')
 let msg: string = 'Bom dia!'
 
 console.log(msg)
+
+let idade: number = 34
+
+
+console.log(`O dobro da idade é ${idade*2}`)
