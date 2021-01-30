@@ -70,3 +70,14 @@ enum DiaSemana{
 let diaAula: DiaSemana = DiaSemana.sabado
 
 console.log(diaAula)
+
+
+//----------------------------------------------
+
+
+
+let carro: any = 'range rover evoque'
+
+carro = {marca: "fiat", modelo: "mobi"}
+
+console.log(carro)

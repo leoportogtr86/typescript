@@ -38,3 +38,7 @@ var DiaSemana;
 })(DiaSemana || (DiaSemana = {}));
 var diaAula = DiaSemana.sabado;
 console.log(diaAula);
+//----------------------------------------------
+var carro = 'range rover evoque';
+carro = { marca: "fiat", modelo: "mobi" };
+console.log(carro);
