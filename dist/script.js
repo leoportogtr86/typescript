@@ -14,3 +14,4 @@ if (isCasado) {
 else {
     console.log('solteiro');
 }
+var frutas = ['uva', 'limão', 'maça'];

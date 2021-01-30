@@ -26,3 +26,6 @@ if (isCasado){
 
 
 }
+
+
+let frutas: string[] = ['uva', 'limão', 'maça']
