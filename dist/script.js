@@ -5,8 +5,10 @@
 console.log('hello typescript');
 var msg = 'Bom dia!';
 console.log(msg);
+//----------------------------------------------
 var idade = 34;
 console.log("O dobro da idade \u00E9 " + idade * 2);
+//----------------------------------------------
 var isCasado = true;
 if (isCasado) {
     console.log('casado');
@@ -14,9 +16,25 @@ if (isCasado) {
 else {
     console.log('solteiro');
 }
+//----------------------------------------------
 var frutas = ['uva', 'limão', 'maça'];
 console.log(frutas);
+//----------------------------------------------
 var idades = [54, 10, 23, 78];
 console.log(idade);
+//----------------------------------------------
 var dados = ['Leo Porto', 34];
 console.log(dados);
+//----------------------------------------------
+var DiaSemana;
+(function (DiaSemana) {
+    DiaSemana["domingo"] = "domingo";
+    DiaSemana["segunda"] = "segunda";
+    DiaSemana["terca"] = "terca";
+    DiaSemana["quarta"] = "quarta";
+    DiaSemana["quinta"] = "quinta";
+    DiaSemana["sexta"] = "sexta";
+    DiaSemana["sabado"] = "sabado"; //6
+})(DiaSemana || (DiaSemana = {}));
+var diaAula = DiaSemana.sabado;
+console.log(diaAula);
