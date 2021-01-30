@@ -12,3 +12,17 @@ let idade: number = 34
 
 
 console.log(`O dobro da idade é ${idade*2}`)
+
+let isCasado: boolean = true
+
+if (isCasado){
+
+    console.log('casado')
+
+
+} else {
+
+    console.log('solteiro')
+
+
+}
