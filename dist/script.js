@@ -18,3 +18,5 @@ var frutas = ['uva', 'limão', 'maça'];
 console.log(frutas);
 var idades = [54, 10, 23, 78];
 console.log(idade);
+var dados = ['Leo Porto', 34];
+console.log(dados);

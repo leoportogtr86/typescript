@@ -34,3 +34,7 @@ console.log(frutas)
 
 let idades: number[] = [54, 10, 23, 78]
 console.log(idade)
+
+let dados: [string, number] = ['Leo Porto', 34]
+
+console.log(dados)
