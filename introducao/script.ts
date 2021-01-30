@@ -3,3 +3,7 @@
 //tsc -w (monitora e compila os arquivos ts para js)
 
 console.log('hello typescript')
+
+let msg: string = 'Bom dia!'
+
+console.log(msg)
