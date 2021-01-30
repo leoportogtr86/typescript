@@ -15,3 +15,6 @@ else {
     console.log('solteiro');
 }
 var frutas = ['uva', 'limão', 'maça'];
+console.log(frutas);
+var idades = [54, 10, 23, 78];
+console.log(idade);

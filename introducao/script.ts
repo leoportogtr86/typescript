@@ -29,3 +29,8 @@ if (isCasado){
 
 
 let frutas: string[] = ['uva', 'limão', 'maça']
+
+console.log(frutas)
+
+let idades: number[] = [54, 10, 23, 78]
+console.log(idade)
