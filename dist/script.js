@@ -47,3 +47,9 @@ var retornaMsg = function () {
     return 'Hello world';
 };
 console.log(retornaMsg());
+//----------------------------------------------
+function vazia() {
+    console.log('função com retorn vazio');
+}
+vazia();
+//----------------------------------------------

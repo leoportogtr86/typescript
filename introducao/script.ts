@@ -96,3 +96,18 @@ console.log(carro)
 
 
  console.log(retornaMsg())
+
+
+//----------------------------------------------
+
+
+function vazia(): void {
+
+    console.log('função com retorn vazio')
+    
+}
+
+
+vazia()
+
+//----------------------------------------------
