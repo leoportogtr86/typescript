@@ -42,3 +42,8 @@ console.log(diaAula);
 var carro = 'range rover evoque';
 carro = { marca: "fiat", modelo: "mobi" };
 console.log(carro);
+//----------------------------------------------
+var retornaMsg = function () {
+    return 'Hello world';
+};
+console.log(retornaMsg());

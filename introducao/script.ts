@@ -81,3 +81,18 @@ let carro: any = 'range rover evoque'
 carro = {marca: "fiat", modelo: "mobi"}
 
 console.log(carro)
+
+
+//----------------------------------------------
+
+
+
+
+ let retornaMsg = (): string=>{
+
+    return 'Hello world'
+
+ }
+
+
+ console.log(retornaMsg())
