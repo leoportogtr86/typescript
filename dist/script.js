@@ -57,3 +57,8 @@ function soma(n1, n2) {
     return n1 + n2;
 }
 console.log(soma(10, 45));
+//----------------------------------------------
+//tipando a variavel como funcao (definindo que paramtros ela recebe, assim como o tipo do seu retorno)
+var somar;
+somar = soma;
+console.log(somar(98, 97));

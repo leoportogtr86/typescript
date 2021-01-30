@@ -121,3 +121,19 @@ function soma(n1: number, n2: number): number {
 
 
 console.log(soma(10, 45))
+
+
+
+//----------------------------------------------
+
+//tipando a variavel como funcao (definindo que paramtros ela recebe, assim como o tipo do seu retorno)
+
+let somar: (a: number, b: number)=> number
+
+somar = soma
+
+console.log(somar(98, 97))
+
+
+
+
