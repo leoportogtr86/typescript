@@ -62,3 +62,9 @@ console.log(soma(10, 45));
 var somar;
 somar = soma;
 console.log(somar(98, 97));
+var title = document.getElementById("title");
+var btn = document.getElementById('btn');
+title.innerHTML = "teste";
+btn.onclick = function () {
+    console.log('click');
+};

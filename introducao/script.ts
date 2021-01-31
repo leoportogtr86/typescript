@@ -137,3 +137,14 @@ console.log(somar(98, 97))
 
 
 
+let title = document.getElementById("title") as HTMLElement ;
+let btn = document.getElementById('btn')!
+
+title.innerHTML = "teste"
+
+
+btn.onclick = ()=>{
+
+    console.log('click')
+}
+
