@@ -148,3 +148,24 @@ btn.onclick = ()=>{
     console.log('click')
 }
 
+//----------------------------------------------
+
+let pessoa: {nome: string, idade: number} ={
+
+    nome: 'Leo Porto',
+    idade: 34
+}
+
+console.log(pessoa)
+
+let car: {modelo: string, marca: string, preco: number} = {
+
+    modelo: 'range rover evoque',
+    marca: 'land rover',
+    preco: 350000
+
+
+}
+
+
+console.log(car)

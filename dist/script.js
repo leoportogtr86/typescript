@@ -68,3 +68,15 @@ title.innerHTML = "teste";
 btn.onclick = function () {
     console.log('click');
 };
+//----------------------------------------------
+var pessoa = {
+    nome: 'Leo Porto',
+    idade: 34
+};
+console.log(pessoa);
+var car = {
+    modelo: 'range rover evoque',
+    marca: 'land rover',
+    preco: 350000
+};
+console.log(car);
