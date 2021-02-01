@@ -169,3 +169,34 @@ let car: {modelo: string, marca: string, preco: number} = {
 
 
 console.log(car)
+
+
+//-----desafio-----
+
+let funcionario: {
+
+    supervisores: string[],
+    baterPonto: (horas: number) => string
+
+} = {
+
+    supervisores : ['Bruno', 'Maria'],
+
+    baterPonto(horas: number): string{
+
+        if (horas < 8){
+
+            return 'Horário normal'
+
+
+        } else {
+
+            return 'horário irregular'
+        }
+
+
+    }
+
+}
+
+console.log(funcionario)

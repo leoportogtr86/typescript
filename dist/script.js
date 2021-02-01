@@ -80,3 +80,16 @@ var car = {
     preco: 350000
 };
 console.log(car);
+//-----desafio-----
+var funcionario = {
+    supervisores: ['Bruno', 'Maria'],
+    baterPonto: function (horas) {
+        if (horas < 8) {
+            return 'Horário normal';
+        }
+        else {
+            return 'horário irregular';
+        }
+    }
+};
+console.log(funcionario);
