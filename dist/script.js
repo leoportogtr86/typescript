@@ -102,3 +102,8 @@ var evoque1 = {
     }
 };
 console.log(evoque1.andar(180));
+//-----------------------------------------------
+var cpf = 123456789;
+console.log(cpf);
+cpf = '123456789';
+console.log(cpf);

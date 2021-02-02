@@ -228,3 +228,15 @@ let evoque1: Automovel = {
 
 
 console.log(evoque1.andar(180))
+
+//-----------------------------------------------
+
+let cpf: number | string = 123456789
+
+console.log(cpf)
+
+cpf = '123456789'
+
+console.log(cpf)
+
+
