@@ -93,3 +93,12 @@ var funcionario = {
     }
 };
 console.log(funcionario);
+var evoque1 = {
+    marca: 'land rover',
+    modelo: 'range rover evoque',
+    preco: 350000,
+    andar: function (velocidade) {
+        return "andando a " + velocidade + " km/h.";
+    }
+};
+console.log(evoque1.andar(180));

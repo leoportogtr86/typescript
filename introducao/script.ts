@@ -200,3 +200,31 @@ let funcionario: {
 }
 
 console.log(funcionario)
+
+//---------------------------------------------------------
+
+
+//alias
+type Automovel = {
+
+    marca: string,
+    modelo: string,
+    preco: number,
+    andar: (velocidade: number) => string
+
+
+}
+
+let evoque1: Automovel = {
+
+    marca: 'land rover',
+    modelo: 'range rover evoque',
+    preco: 350000,
+    andar: (velocidade: number): string{
+
+        return `andando a ${velocidade} km/h.`
+    }
+}
+
+
+console.log(evoque1.andar(180))
