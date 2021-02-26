@@ -1,12 +1,10 @@
 class Notebook{
 
 
-    private marca: string = ''
-    private modelo: string = ''
-    private preco: number = 0
-    private cor: string = ''
+    constructor(private marca: string, private modelo: string, private preco: number, private cor: string){
 
-    
+
+    }
 
 
 
@@ -47,6 +45,6 @@ class Notebook{
 }
 
 
-let lenovo = new Notebook()
+let notebook = new Notebook("apple", "mac book pro", 15000, "cinza")
 
-console.log(lenovo)
+console.log(notebook)

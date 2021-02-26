@@ -1,10 +1,10 @@
 "use strict";
 var Notebook = /** @class */ (function () {
-    function Notebook() {
-        this.marca = '';
-        this.modelo = '';
-        this.preco = 0;
-        this.cor = '';
+    function Notebook(marca, modelo, preco, cor) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.preco = preco;
+        this.cor = cor;
     }
     Notebook.prototype.ligar = function () {
         console.log('on');
@@ -26,5 +26,5 @@ var Notebook = /** @class */ (function () {
     };
     return Notebook;
 }());
-var lenovo = new Notebook();
-console.log(lenovo);
+var notebook = new Notebook("apple", "mac book pro", 15000, "cinza");
+console.log(notebook);
