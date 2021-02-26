@@ -220,7 +220,7 @@ let evoque1: Automovel = {
     marca: 'land rover',
     modelo: 'range rover evoque',
     preco: 350000,
-    andar: (velocidade: number): string{
+    andar: (velocidade: number): string=>{
 
         return `andando a ${velocidade} km/h.`
     }
