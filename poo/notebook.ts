@@ -1,4 +1,4 @@
-class Notebook{
+export class Notebook{
 
 
     constructor(private marca: string, private modelo: string, private preco: number, private cor: string){
@@ -81,3 +81,5 @@ notebook.setpreco(7800)
 
 
 console.log(notebook)
+
+
