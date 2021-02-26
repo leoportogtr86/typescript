@@ -15,6 +15,18 @@ var Notebook = /** @class */ (function () {
     Notebook.prototype.getMarca = function () {
         return this.marca;
     };
+    Notebook.prototype.setMarca = function (marca) {
+        this.marca = marca;
+    };
+    Notebook.prototype.setCor = function (cor) {
+        this.cor = cor;
+    };
+    Notebook.prototype.setModelo = function (modelo) {
+        this.modelo = modelo;
+    };
+    Notebook.prototype.setpreco = function (preco) {
+        this.preco = preco;
+    };
     Notebook.prototype.getModelo = function () {
         return this.modelo;
     };
@@ -27,4 +39,11 @@ var Notebook = /** @class */ (function () {
     return Notebook;
 }());
 var notebook = new Notebook("apple", "mac book pro", 15000, "cinza");
+// console.log(notebook)
+notebook.ligar();
+console.log(notebook.getCor());
+notebook.setMarca("Samsung");
+notebook.setCor("preto");
+notebook.setModelo("sam-78945");
+notebook.setpreco(7800);
 console.log(notebook);
