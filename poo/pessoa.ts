@@ -1,10 +1,11 @@
 import {Notebook} from './notebook'
+import {Guitarra} from './guitarra'
 
 
 
 export class Pessoa{
 
-    constructor(private nome: string, private notebookAtual: Notebook, private notebookNovo: Notebook){
+    constructor(private nome: string, private notebookAtual: Notebook, private notebookNovo: Notebook, private guitarras: Guitarra[]){
 
 
     }

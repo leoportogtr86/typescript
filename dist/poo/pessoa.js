@@ -2,10 +2,11 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Pessoa = void 0;
 var Pessoa = /** @class */ (function () {
-    function Pessoa(nome, notebookAtual, notebookNovo) {
+    function Pessoa(nome, notebookAtual, notebookNovo, guitarras) {
         this.nome = nome;
         this.notebookAtual = notebookAtual;
         this.notebookNovo = notebookNovo;
+        this.guitarras = guitarras;
     }
     Pessoa.prototype.dizerNome = function () {
         return this.nome;

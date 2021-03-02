@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var guitarra_1 = require("./guitarra");
+var pessoa_1 = require("./pessoa");
+var notebook_1 = require("./notebook");
+var g1 = new guitarra_1.Guitarra("Ibanez", "rgx-300", 4500, 6);
+var g2 = new guitarra_1.Guitarra("Fender", "amercian standard", 10500, 6);
+var g3 = new guitarra_1.Guitarra("Suhr", "Scott Henderson", 12500, 6);
+var g4 = new guitarra_1.Guitarra("Ibanez", "semiacustica", 13500, 6);
+var n1 = new notebook_1.Notebook("Lenovo", "ideapads145", 1800, "cinza");
+var n2 = new notebook_1.Notebook("Apple", "Macbook pro", 18000, "cinza");
+var p1 = new pessoa_1.Pessoa("Leo Porto", n1, n2, [g1, g2, g3, g4]);
+console.log(p1);
