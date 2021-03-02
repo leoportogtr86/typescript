@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var guitarra_1 = require("./guitarra");
-var pessoa_1 = require("./pessoa");
-var notebook_1 = require("./notebook");
+var guitarra_1 = require("./models/guitarra");
+var pessoa_1 = require("./models/pessoa");
+var notebook_1 = require("./models/notebook");
 var g1 = new guitarra_1.Guitarra("Ibanez", "rgx-300", 4500, 6);
 var g2 = new guitarra_1.Guitarra("Fender", "amercian standard", 10500, 6);
 var g3 = new guitarra_1.Guitarra("Suhr", "Scott Henderson", 12500, 6);

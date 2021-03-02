@@ -1,6 +1,6 @@
-import {Guitarra} from './guitarra'
-import {Pessoa} from './pessoa'
-import {Notebook} from './notebook'
+import {Guitarra} from './models/guitarra'
+import {Pessoa} from './models/pessoa'
+import {Notebook} from './models/notebook'
 
 
 
