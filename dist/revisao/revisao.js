@@ -1,4 +1,3 @@
-"use strict";
 var nomeCompleto = "Leonardo Porto";
 var salario = 2600;
 var profissao = "dev fullstack";

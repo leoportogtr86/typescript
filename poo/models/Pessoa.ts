@@ -1,5 +1,5 @@
-import {Notebook} from './notebook'
-import {Guitarra} from './guitarra'
+import {Notebook} from './Notebook'
+import {Guitarra} from './Guitarra'
 
 
 

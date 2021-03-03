@@ -1,4 +1,4 @@
-import {Notebook} from './notebook'
+import {Notebook} from './Notebook'
 
 export class Loja {
 
