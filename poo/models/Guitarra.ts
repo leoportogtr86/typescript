@@ -10,13 +10,3 @@ export class Guitarra extends Instrumento {
     }
    
 }
-
-let guitarra = new Guitarra(6)
-
-guitarra.setMarca("Fender")
-guitarra.setModelo("Strato")
-guitarra.setPreco(6000)
-
-
-
-console.log(guitarra)

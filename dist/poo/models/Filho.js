@@ -13,15 +13,16 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Guitarra = void 0;
-var Instrumento_1 = require("./Instrumento");
-var Guitarra = /** @class */ (function (_super) {
-    __extends(Guitarra, _super);
-    function Guitarra(numeroCordas) {
+exports.Filho = void 0;
+var Pai_1 = require("./Pai");
+var Filho = /** @class */ (function (_super) {
+    __extends(Filho, _super);
+    function Filho(serieEscolar, brincadeirasFavoritas) {
         var _this = _super.call(this) || this;
-        _this.numeroCordas = numeroCordas;
+        _this.serieEscolar = serieEscolar;
+        _this.brincadeirasFavoritas = brincadeirasFavoritas;
         return _this;
     }
-    return Guitarra;
-}(Instrumento_1.Instrumento));
-exports.Guitarra = Guitarra;
+    return Filho;
+}(Pai_1.Pai));
+exports.Filho = Filho;
