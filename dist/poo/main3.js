@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Mercado_1 = require("./models/Mercado");
+var Produto_1 = require("./models/Produto");
+var bemais = new Mercado_1.Mercado("supermercado");
+var arroz = new Produto_1.Produto(0, "arroz", "Tião", 5);
+bemais.setNome("Bemais supermercados");
+bemais.cadastrarProduto(arroz);
+console.log(bemais.getNome());
+console.log(arroz);
+console.log(bemais.getProdutos());

@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Horario_1 = require("./models/Horario");
+var Disciplina_1 = require("./models/Disciplina");
+var d1 = new Disciplina_1.Disciplina("Ética", "Ana Paula");
+var d2 = new Disciplina_1.Disciplina("Matemática", "Luís Paulo");
+var d3 = new Disciplina_1.Disciplina("Geografia", "Mauro");
+var d4 = new Disciplina_1.Disciplina("Português", "Assucena");
+var h1 = new Horario_1.Horario("08/03/2021", [d1, d2, d3, d4], "Segunda");
+console.log(h1);
