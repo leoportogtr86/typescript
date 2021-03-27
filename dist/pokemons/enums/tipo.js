@@ -1,0 +1,24 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Tipo = void 0;
+var Tipo;
+(function (Tipo) {
+    Tipo[Tipo["Bug"] = 0] = "Bug";
+    Tipo[Tipo["Dark"] = 1] = "Dark";
+    Tipo[Tipo["Dragon"] = 2] = "Dragon";
+    Tipo[Tipo["Electric"] = 3] = "Electric";
+    Tipo[Tipo["Fairy"] = 4] = "Fairy";
+    Tipo[Tipo["Fighting"] = 5] = "Fighting";
+    Tipo[Tipo["Fire"] = 6] = "Fire";
+    Tipo[Tipo["Flying"] = 7] = "Flying";
+    Tipo[Tipo["Ghost"] = 8] = "Ghost";
+    Tipo[Tipo["Grass"] = 9] = "Grass";
+    Tipo[Tipo["Ground"] = 10] = "Ground";
+    Tipo[Tipo["Ice"] = 11] = "Ice";
+    Tipo[Tipo["Normal"] = 12] = "Normal";
+    Tipo[Tipo["Poison"] = 13] = "Poison";
+    Tipo[Tipo["Psychic"] = 14] = "Psychic";
+    Tipo[Tipo["Rock"] = 15] = "Rock";
+    Tipo[Tipo["Steel"] = 16] = "Steel";
+    Tipo[Tipo["Water"] = 17] = "Water";
+})(Tipo = exports.Tipo || (exports.Tipo = {}));

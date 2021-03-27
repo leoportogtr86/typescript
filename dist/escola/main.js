@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Aluno_1 = require("./models/Aluno");
+var Disciplina_1 = require("./models/Disciplina");
+var Professor_1 = require("./models/Professor");
+var paulo = new Aluno_1.Aluno("Paulo", 10);
+var cezar = new Professor_1.Professor("Cézar");
+var matematica = new Disciplina_1.Disciplina("matemática", 1, cezar);
+console.log(paulo.getDisciplinas());
+console.log(paulo);
+paulo.matricularEmDisciplina(matematica);
+console.log(paulo.getDisciplinas());
